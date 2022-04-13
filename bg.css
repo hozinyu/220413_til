@@ -47,5 +47,11 @@
 
 ul { display: flex;
     color:#7D858F;
-    list-style: circle;}
+    list-style: none;}
+    
+li:before {
+        content:"· ";
+        font-size:14px;
+        vertical-align:middle;}
 
+li { list-style-position: none;}
