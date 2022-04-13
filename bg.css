@@ -1,0 +1,51 @@
+* { box-sizing: border-box;}
+
+.air-bnb-pic { 
+    position: relative;
+    background-image: url('./house.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 300px; height: 200px;}
+
+.house-pic {
+    display: block;
+    position: absolute;
+}
+
+.btn {
+    background-image: url('./favourite.png');
+    position: absolute;
+    top: 12px; left: 12px;
+    background-color: rgba(0,0,0,0);
+    border-style: none;
+    width: 36px; height: 36px;}
+
+.plus { 
+    display: flex;
+    justify-content: center;
+    width: 44px; height: 22px;
+    font-size: 14px;
+    font-weight: 500px;
+    border-radius: 4px;
+    background-color:#92174D;
+    color: white; }
+
+.house-type {
+    display: flex;
+    font-size: 16px;
+    color: #7D858F;}
+.intro1, .intro2 {
+     display: flex;
+    flex-flow: row wrap;}
+
+.star { width: 13px; height: 12.6;}
+.score {font-size: 16px;}
+.reviews {font-size: 16px; color: #7D858F;}
+
+.house-name { font-size: 20px;}
+
+ul { display: flex;
+    color:#7D858F;
+    list-style: circle;}
+
